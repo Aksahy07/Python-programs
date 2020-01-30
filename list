@@ -1,0 +1,8 @@
+li=int(input("enter number of element:"))
+a=[]
+for i in range(0,li):
+       b=int(input("enter the value to input:"))
+       if(b%2==0):
+           a.append(b)
+       print(a)
+             
