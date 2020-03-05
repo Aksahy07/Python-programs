@@ -1,0 +1,23 @@
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def mul(a,b):
+    return a*b
+def div(a,b):
+    return a/b
+a=int(input("enter value of a"))
+b=int(input("enter value of b"))
+c=input("enter operation has to performed")
+if(c=='+'):
+    d=add(a,b)
+    print(d)
+elif (c=='-'):
+    d=sub(a,b)
+    print(d)
+elif(c=='*'):
+    d=mul(a,b)
+    print(d)
+elif(c=='/'):
+    d=div(a,b)
+    print(d)
